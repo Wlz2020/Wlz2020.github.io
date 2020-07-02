@@ -683,8 +683,10 @@ $8^0 \quad k(\alpha +\beta )=k\alpha +k\beta, ,\forall k \in K,\alpha  ,\beta \i
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
-             
-        <li class="article-tag-list-item">
+		   <!-- 下面是点标签后侧滑出的标签面 -->
+             <!-- 如果要在当前文章新加标签 加li然后去content.json文件加即可 -->
+		  
+             <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">翻墙</a>
               </li>
              
@@ -695,7 +697,7 @@ $8^0 \quad k(\alpha +\beta )=k\alpha +k\beta, ,\forall k \in K,\alpha  ,\beta \i
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">软件test</a>
+                <a href="javascript:void(0)" class="js-tag color2">软件</a>
               </li>
              
     
