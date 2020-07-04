@@ -553,13 +553,13 @@
 		var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
 		var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
 		var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-		document.getElementById("sitetime").innerHTML=" 已运行"+/*diffYears+" 年 "+*/diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
+		document.getElementById("sitetime").innerHTML=" 本站已运行"+/*diffYears+" 年 "+*/diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
 	}
 	siteTime();
 </script>
 <!--// 添加运行时间-->
   
-	<br/>
+	<span class="post-meta-divider" >|</span>
 	<span id="busuanzi_container_site_pv" style="display:none">
 		本站总访问量<span id="busuanzi_value_site_pv"></span>次	
 	        <span class="post-meta-divider" >|</span>
